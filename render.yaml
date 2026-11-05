@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: azim-ai-video-editor
+    runtime: docker
+    plan: starter
+    healthCheckPath: /
